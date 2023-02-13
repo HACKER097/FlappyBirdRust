@@ -207,9 +207,9 @@ async fn main() {
             bird1.y = 206.0;
             check_colision = true;
             point_given = true;
+            bird1.accel = 0.0;
             pipe1.speed = 0.0;
             pipe2.speed = 0.0;
-            bird1.accel = 0.0;
             show_game_over = false;
 
         }
